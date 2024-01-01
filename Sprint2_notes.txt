@@ -1,0 +1,49 @@
+Module_1___________________________________________________________________
+Sprint_2___________________________________________________________________
+Part_1_____________________________________________________________________
+
+numpy.__version__ - checks numpy version
+np.array([1, 2, 3, 4], dtype='float32') - gives array with dtype float
+np.zeros(10, dtype=int) - gives array of ten zeros with dtype int
+np.ones((3, 5), dtype=float) - gives matrix of ones 3 rows, 5 columns with dtype float
+np.full((3, 5), 3.14) - gives matrix of given number (3.14)
+np.arrange(0, 20, 2) - create an array filled with a linear sequence starting at 0, ending at 20,
+			stepping by 2.
+np.linspace(0, 1, 5) - create an array of five values evenly spaced between 0 and 1
+np.random.random((3, 3)) - create a 3x3 array of uniformly distributed random values between 0 and 1
+np.random.normal(0, 1 (3, 3)) - create a 3x3 array of normally distributed random values with mean
+				0 and standard deviation 1
+np.random.randint(0, 10, (3, 3)) - create a 3x3 array of random intergers in the interval [0, 10)
+.ndim - the number of dimensions
+.shape - the size of each dimension
+.size - the total size of the array
+.dtype - the data type of the array
+.itemsize - lists the size (in bytes) of each array element
+.nbytes - lists the total size (in bytes) of the array
+x[::2] - gets every other element of the array
+x[1::2] - gets every other element starting at index 1
+x[::-1] - all elements, reversed -> array([5, 4, 3, 2, 1, 0])
+x[:2, :3] - gets two rows and three columns in multidimensional array
+x[0, :] - first row of multidimensional array
+x_sub_copy = x[:2, :2].copy() copies the part of the array without changing original
+.reshape() - is used for reshaping arrays
+np.concatenate([x, y]) - concatenates x and y arrays to one
+np.vstack([x, grid]) - vertically stack the arrays
+np.hstack([grid, y]) - horizontally stack the arrays
+np.split(x, [3, 5]) - splits the array at given split points (3 and 5)
+np.vsplit(grid, [2]) - vertical split
+np.hsplit(grid, [2]) - horizontal split
+np.absolute(x) - gives absolute value of the array values; also can be np.abs(x)
+np.sum(x) - sums values of array
+%timeit - gives time of used function
+np.min(x) - gives min value of array
+np.max(x) - gives max value of array
+
+
+
+
+
+Part_2_____________________________________________________________________
+Part_3_____________________________________________________________________
+Part_4_____________________________________________________________________
+Project____________________________________________________________________

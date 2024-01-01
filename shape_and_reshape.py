@@ -10,13 +10,11 @@
 # [[1 2 3]
 #  [4 5 6]
 #  [7 8 9]]
+
 import numpy as np
 
-# given = ['1' '2' '3' '4' '5' '6' '7' '8' '9']
 given = list(input())[::2]
-
 x_array = np.array(given, dtype=int)
-
 x_array.shape = (3, 3)
 
 print(x_array)
