@@ -45,5 +45,30 @@ np.max(x) - gives max value of array
 
 Part_2_____________________________________________________________________
 Part_3_____________________________________________________________________
+
+.str functions - read more
+.apply() - can be applied functions to column or whole dataframe
+
+Pandorable way of writing code:
+(df.where(df['SUMLEV']==50)
+	.dropna()
+	.set_index(['STNAME', 'CTYNAME'])
+	.rename(columns={'ESTIMATEBASE2010': 'Estimates Base 2010'}))
+
+.groupby('other_column').agg({'some_column':np.nanmean}) - aggregates by selected criteria
+.groupby('other_column').agg({'some_column':(np.nanmean, np.nanstd), 'column': np.nanmean}) - aggregates by multiple selected criterias and columns
+.groupby.transform() - read more about this
+.groupby.filter() - read more about this
+.groupby.apply() - can be other functions applied when grouping
+
+df.pivot_table(values='score', index='country', columns='Rank_level', aggfunc=[np.mean, np.max]).head() - creates pivot table
+
+pd.to_datetime() - converts text or numbers to datetime format
+
+.describe() - gets summary of selected df['column'] with mean, count, etc.
+
+.map() -> rews.points.map(lambda p: p - rews_pts_mean) - .map() "maps" one set of values with another set of values
+
+
 Part_4_____________________________________________________________________
 Project____________________________________________________________________
