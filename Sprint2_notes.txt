@@ -71,4 +71,21 @@ pd.to_datetime() - converts text or numbers to datetime format
 
 
 Part_4_____________________________________________________________________
+
+!cat ./movielens/movies.csv - shows file's inside data
+!cat ./movielens/movies.csv | wc -l - shows number of objects inside file
+!head -5 ./movielens/movies.csv - shows first 5 rows of the file's data
+
+.any() - describes if any of the selected values are True
+.all() - describes if all of the selected values are True
+.mode() - shows the most repeatative value
+df.interpolate() - performs interpolation in the missig values of df
+.isnull().any() - used for data cleaning to check if there is nulls in df
+df.shape - shows rows and columns of dataframe
+df.plot() - methods for plotting
+.str.contains('text') - checks if that string value contains the written text
+.concat(['col_a', 'col_b'], axis=1, join='inner') - connects two dataframes
+pd.merge()
+
+
 Project____________________________________________________________________
