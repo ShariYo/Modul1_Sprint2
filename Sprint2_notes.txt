@@ -84,8 +84,19 @@ df.interpolate() - performs interpolation in the missig values of df
 df.shape - shows rows and columns of dataframe
 df.plot() - methods for plotting
 .str.contains('text') - checks if that string value contains the written text
+.str.split() - splits the string value
+.str.replace('_', '##') - replaces values
+
+
 .concat(['col_a', 'col_b'], axis=1, join='inner') - connects two dataframes
 pd.merge()
 
 
 Project____________________________________________________________________
+
+Include readme file
+More comments
+Short description, mini intro
+Key column is an object
+Danceability ir loudness išskirti
+Markdown po kodu
