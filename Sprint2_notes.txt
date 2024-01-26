@@ -100,3 +100,6 @@ Short description, mini intro
 Key column is an object
 Danceability ir loudness išskirti
 Markdown po kodu
+
+pavadinimai tikslesni turi būti
+išvada turi būti, kas bendra tarp top songs.
